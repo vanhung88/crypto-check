@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+const URL = import.meta.env.VITE_BASE_API
+console.log(URL)
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <div class="text-orange-400">ádasd</div>
   </main>
 </template>
+<style scoped></style>
